@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JokenPô2</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Architects+Daughter&display=swap"
+        rel="stylesheet">
+
+<body>
+
+
+    <section class="banner">
+        <div class="introduction">
+            <h1>PEDRA, PAPEL, TESOURA, <br>LAGARTO e SPOCK</h1>
+            <h2>Jogo baseado na série Big Band Theory</h2>
+            <img class="round-photo" src="./assets/rpscl-bg.jpg">
+        </div>
+    </section>
+
+    <section class="picture-middle-container">
+        <img class="middle-image" src="./assets/background5.jpg">
+    </section>
+
+    <section class="origin-container">
+        <img class="raj-sheldon" src="./assets/spock.jpg">
+        <div class="origin-content">
+            <h2 class="title-origin">Origem do jogo</h2>
+            <p class="explanation">
+                A primeira aparição do jogo ocorre no episódio número 8, intitulado "The Lizard-Spock Expansion", da
+                segunda temporada. Nessa ocasião, os personagens da série Sheldon, Raj e Leonard estão decidindo, sem
+                consenso, sobre o que assistir na televisão. Raj
+                sugere que o ganhador do jogo de pedra, papel e tesoura decida.
+            </p>
+            <p class="explanation-two">
+                Porém, Sheldon argumenta que em um jogo de pedra papel e tesoura em que os jogadores se conhecem, a
+                chance de um empate é de 75 a 85%.
+                Como contraproposta, Sheldon propõe então que seja jogado Pedra, Papel, Tesoura, Lagarto e Spock.
+            </p>
+        </div>
+    </section>
+
+    <section class="how-to-play-one">
+        <h2>Como jogar?</h2>
+        <h3>Para entender como jogar, assita essa explicação original mostrada na série:</h3>
+        <video class="video-explanation" controls width="1000" height="600">
+            <source src="./assets/video big bang legendado.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="container-how-to-play-two">
+        <div class="how-to-play-two">
+            <h2>Ainda não entendeu?
+                <h3>
+                    Tá tudo bem! É complicado mesmo...
+                    <br>
+                    Essa imagem explicativa vai ajudar!
+                </h3>
+                <p>
+                    <img src="../Jokenpo2/assets/rules.png" class="img-rules">
+                </p>
+                <h4>Tradução</h4>
+                <p class="translation">
+                    Cuts = cortar
+                    <br>
+                    Covers = cobrir
+                    <br>
+                    Crushes = esmagar
+                    <br>
+                    Decapitate = decapitar
+                    <br>
+                    Disproves = refutar
+                    <br>
+                    Poison = envenenar
+                    <br>
+                    Smashes = esmagar
+                    <br>
+                    Vaporizes = vaporizar
+                </p>
+            </h2>
+        </div>
+    </section>
+
+    <section class="playing">
+        <div class="container-playing">
+            <h1 class="lets-play">Vamos jogar?!</h1>
+            <p class="play-instructions">Basta clicar em qualquer das 5 opções abaixo <br> (pedra, papel, tesoura,
+                lagarto e spock) <br>e nós faremos o resto! </p>
+            <div class="buttons">
+                <button id="rock" onclick="playHuman('rock')"> <img src="../Jokenpo2/assets/rock.png" width="100"
+                        height="100"> </button>
+                <button id="paper" onclick="playHuman('paper')"> <img src="../Jokenpo2/assets/paper.png" width="100"
+                        height="100"> </button>
+                <button id="scissors" onclick="playHuman('scissors')"> <img src="../Jokenpo2/assets/scissors (2).png"
+                        width="100" height="100"> </button>
+                <button id="lagarto" onclick="playHuman('lagarto')"> <img src="../Jokenpo2/assets/lizard.png"
+                        width="100" height="100"> </button>
+                <button id="spock" onclick="playHuman('spock')"> <img src="../Jokenpo2/assets/spock.png" width="100"
+                        height="100"> </button>
+            </div>
+
+            <p class="player-pick"></p>
+            <p class="machine-pick"></p>
+
+            <p class="result"></p>
+        </div>
+
+        <div class="score">
+            <h2>Pontuação</h2>
+            <br>
+            <p class="your-score">Você: <span id="human-score">0</span> </p>
+            <br>
+            <p class="machine-score">Máquina: <span id="machine-score">0</span> </p>
+        </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="about-me">
+            <h1 class="footer-title">Sobre mim</h1>
+            <img class="my-picture" src="./assets/me.jpg" width="140" height="200">
+            <p class="paragraph-about-me">
+                Olá! Me chamo Mateus Oling e sou um programador e freelancer de front-end.
+                Desenvolvo projetos envolvendo HTML, CSS e JavaScript. Além disso, estou estudando
+                para me tornar um desenvolvedor Full Stack no curso de programação do DevClub.
+            </p>
+        </div>
+
+        <div class="about-project">
+            <h1>Sobre o projeto</h1>
+            <img class="project-picture" src="./assets/Web2.png" width="200" height="200">
+            <p>Inicialmente, esse projeto consistia em um simples jogo de "pedra-papel-tesoura" proposto no curso de programação no no módulo JavaScript.
+            Decidindo ir além do postulado, resolvi criar
+            este jogo mais elaborado, e baseado na série de televisão Big Bang Theory, que não só adiciona novas mecânicas ao jogo,tornando-o mais complexo, como também serve como um tributo a essa série tão aclamada no mundo geek.
+            </p>
+        </div>
+    </footer>
+
+    <span class="line"></span>
+
+    <div class="container-links">
+        <div class="links">
+            <h2 class="contact">Contato</h2>
+            <a class="linkedin" href="https://www.linkedin.com/in/mateus-oling/">
+                <img src="./assets/linkedin-icon-1024x1024-net2o24e.png" width="60" height="60">
+            </a>
+            <a class="github" href="https://github.com/Mateus-Oling">
+                <img src="./assets/github-removebg-preview-removebg-preview.png" width="60" height="60">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.banner {
+    background-attachment: fixed;
+    background-image: url(./assets/background\ sofa.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    font-weight: 700;  
+}
+
+
+.banner .introduction {
+    display: inline-block;
+    margin-right: 1%;
+    width: 980px;
+    height: 520px;
+    padding: 6em;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1;
+    line-height: 60px;
+    margin-top: 130px;
+}
+
+
+.banner .introduction .round-photo {
+    border-radius: 100%;
+    display: inline-block;
+    height: 312px;
+    width: 312px;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+
+
+.middle-image {
+    display: block;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+.origin-container {
+    border-top-width: 0.35em;
+    bottom: 0;
+    left: 0;
+    padding: 5.1em 0 3.1em 0;
+    height: 573px;
+    width: 100%;
+    transition: transform 1s ease, opacity 1s ease;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url(./assets/backgroundblue.png);
+    background-size: cover;
+    min-height: 80vh;
+    
+}
+
+.raj-sheldon {
+    width: 610px;
+    height: 350px;
+    margin-left: 75px;
+    border-radius: 20px;
+}
+
+.origin-content {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.title-origin {
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    flex-wrap: nowrap;
+}
+
+.explanation {
+    font-weight: 400;
+    line-height: 45px;
+    align-items: center;
+    font-size: 27px;
+    width: 70%;
+    letter-spacing: -1px;
+}
+
+.explanation::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgba(221, 73, 73, 0.904);
+    margin: 1px 1px 10px 1px;
+    line-height: 1;
+    padding-right: 8px;
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+}
+
+.explanation-two {
+    font-weight: 400;
+    line-height: 45px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 27px;
+    width: 70%;
+    initial-letter: 100;
+    letter-spacing: -1px;
+}
+
+.explanation-two::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgba(221, 73, 73, 0.904);
+    margin: 1px 1px 10px 1px;
+    line-height: 1;
+    padding-right: 8px;
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+}
+
+.how-to-play-one {
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url(./assets/lNFwCp.webp);
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.how-to-play-one h2 {
+    display: flex;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    flex-wrap: nowrap;
+}
+
+.how-to-play-one h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    line-height: 45px;
+    align-items: center;
+    font-size: 42px;
+    width: 70%;
+    letter-spacing: -1px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.container-how-to-play-two {
+    background-image: url(./assets/sheldon\ leo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -155px 0px;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+
+.how-to-play-two {
+    width: 478px;
+    height: 100%;
+    line-height: 38px;
+    border: solid;
+    background-image: url(./assets/backgroundblue.png);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.how-to-play-two h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px
+}
+
+.how-to-play-two h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px
+}
+
+
+.img-rules {
+    width: 400px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    font-size: 25px
+}
+
+.translation {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+
+.playing {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 150vh;
+    width: auto;
+    background-attachment: fixed;
+    background-image: url(./assets/nerds.jpg);
+    box-shadow: 0 0.25em 0.5em 0 rgba(57, 60, 85, 0.3);
+    background-position: 600px 10px;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 30px;
+    object-fit: cover;
+    margin-left: -480px;
+}
+
+.playing::before {
+    content: '';
+    display: inline-block;
+    height: 85vh;
+    vertical-align: middle;
+    width: -1%;
+}
+
+.container-playing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lets-play {
+    margin-top: -120px;
+    margin-bottom: 130px;
+    margin-left: 200px;
+    font-size: 70px;
+    color: rgba(204, 5, 28, 0.846);
+}
+
+
+.play-instructions {
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 21px;
+}
+
+.playing h2 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.score {
+    background: #838285c7;
+    opacity: 0.9;
+    border-radius: 12px;
+    border: 2px solid black;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+    margin-top: 500px;
+}
+
+
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+    transition: opacity 0.5s ease-in-out;
+    background-color: #838285c7;
+}
+
+button:hover {
+    opacity: 0.7
+}
+
+.buttons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+
+.picks {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.your-score {
+    font-size: 20px;
+}
+
+.your-score span {
+    color: white;
+}
+
+.machine-score {
+    font-size: 20px;
+}
+
+.machine-score span {
+    color: white;
+}
+
+
+footer {
+    background-attachment: fixed;
+    background-image: url(./assets/backgroundblue.png);
+    background-size: cover;
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 120vh;
+}
+
+
+.paragraph-about-me {
+    font-weight: normal;
+    width: 700px;
+    font-size: 20px;
+    color: white;
+    line-height: 3;
+}
+
+.footer-title {
+    color: rgba(204, 5, 28, 0.846);
+    font-size: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-project {
+    margin-top: 190px;
+    margin-bottom: 80px;
+}
+
+.about-project p {
+    width: 700px;
+    font-size: 20px;
+    color: white;
+    line-height: 3;
+    font-weight: normal;
+}
+
+.about-project h1 {
+    color: rgba(204, 5, 28, 0.846);
+    font-size: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-picture {
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+.project-picture {
+    border-radius: 50%;
+    margin-left: -50px;
+}
+
+.line {
+    border-bottom: px solid #888484;
+    display:block;
+}
+
+.container-links {
+    height: 17vh;
+    background: #272833;
+    text-align: center;
+    display:block;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    color: rgba(204, 5, 28, 0.846);
+    font-size: 17px;
+    padding: 25px;
+}
+
+.contact {
+    display:block;
+    margin-bottom: 30px;
+}
+
+.linkedin {
+    margin-right: 25px;
+}
+
+
+
+
