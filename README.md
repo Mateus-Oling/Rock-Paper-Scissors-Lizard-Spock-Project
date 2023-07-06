@@ -13,6 +13,8 @@ Como ferramentas, utilizei apenas as tecnologias de HTML, CSS e HTML, sem utiliz
 
 https://github.com/Mateus-Oling/Rock-Paper-Scissors-Lizard-Spock-Project/assets/135168984/20c7660a-ac6c-4cfa-b176-43d8e92b06c4
 
+<p>O projeto pode ser acessado diretamente por este link: https://mateus-oling.github.io/Rock-Paper-Scissors-Lizard-Spock-Project/ </p>
+<p>The project can be viewed directly by this link: https://mateus-oling.github.io/Rock-Paper-Scissors-Lizard-Spock-Project/ </p>
 
 <h2>Tecnologias utilizadas / Technologies used:</h2>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
